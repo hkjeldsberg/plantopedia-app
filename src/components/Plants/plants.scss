@@ -1,0 +1,23 @@
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    align-items: center;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+
+    .item-logo {
+      width: 8rem;
+      padding-bottom: 1rem;
+    }
+
+    .item-name {
+      color: black;
+    }
+  }
+}

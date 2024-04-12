@@ -1,0 +1,13 @@
+.logo{
+    width: 20rem;
+}
+.logo-name{
+    font-size: 175%;
+    line-height: 1.28;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+
+    @media (min-width: 48rem) {
+        font-size: 225%;
+    }
+}
